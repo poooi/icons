@@ -51,3 +51,11 @@ Button lettering outlines increase from 1 to 1.85 units; state lettering increas
 The four operation labels now use outlined Noto Sans JP Bold (700). A single font size (approximately 15.20 units in the 78-unit viewBox) fits the longest label, `補給/入渠`, within 66 units of ink width plus its outline. All labels retain the font's native advance widths, equal X/Y scaling and one baseline. Shorter labels are centered without widening them. This supersedes the Mincho lettering described in earlier operation revisions; equipment and state labels retain Mincho.
 
 The shared border uses a metallic gradient face, a fine bright lip, a darker outer edge and an inset shadow. The four updated buttons were visually checked at 624 px and 18/24/32/48 px on both backgrounds. The longest label is complete, and SVG paint references and rendered bounds passed validation.
+
+## Compass structure and sortie aircraft
+
+The compass's previous large side loop was an incorrect interpretation. The revised structure separates a short knurled left-side crown from the hook attached beneath the case. Parallel oblique rims and a displaced lower brass shell express its thickness; the red/black needle and central pivot establish the dial direction. This supersedes the earlier description of a loop behind the left side.
+
+The sortie aircraft now has a complete continuous main wing beneath a rounded, tapered fuselage, an engine cowling, framed canopy, horizontal stabilizer, upright tail fin and two-bladed nose propeller. Separate surface shading clarifies the wing/body overlap without fragmenting the silhouette. It retains the source's cream color and front-left viewpoint.
+
+Both buttons were inspected at 624 px and 18/24/32/48 px against dark and light backgrounds. The enlarged check removed an inconsistent side-shell contour; the final SVGs parse, resolve local paints and remain inside their rendered bounds. The preview DOM check passed. Common sans-serif labels and metal frames are unchanged.
