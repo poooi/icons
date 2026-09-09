@@ -56,3 +56,9 @@ Compare related variants together. Recheck the final composite after any change 
 SVGs must parse and render without embedded bitmaps or external fonts/sprites. Check viewBox bounds, shared geometry, regular hexagon measurements and intended layer order where applicable. Use raster connectivity checks as supporting evidence for unintended fragments, and inspect their result visually. Preserve source links and document meaningful interpretations.
 
 Verify that preview references resolve, and report the actual revision scope. A collected reference is not a completed reconstruction. After publication, verify the deployed revision and file content. Do not add a permanent generation pipeline unless one is requested; a repeatable family convention does not require a build system.
+
+## Small resource and interface symbols
+
+Match the object's volume as well as its silhouette. A bullet needs a curved nose, cylindrical body and base rim; a thin wedge is not equivalent. Preserve source-specific effects such as water overflowing the repair bucket, even when a larger item illustration omits them. Use transparent cutouts for actual holes and inspect them on both backgrounds. Check the color of shared component edges as well as fills when making variants.
+
+For decorated objects, establish the lid, body, perspective and cord placement before adding ornament. Keep uncertain botanical motifs documented as interpretations. Operation buttons have their own symbol composition and texture scale; do not substitute an equipment silhouette solely because it depicts the same kind of object. Compare character angle, placement and burst irregularity in state labels rather than imposing a generic radial badge.
