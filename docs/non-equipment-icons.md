@@ -65,3 +65,5 @@ Both buttons were inspected at 624 px and 18/24/32/48 px against dark and light 
 The dial, top loop and side crown are now constructed in the same front-view coordinate system and share one affine projection. The loop is centered on the dial's top axis; the crown extends radially from its side and sits halfway through the case depth. The lower case uses the same projection with a depth offset. This replaces independently positioned screen-space attachments, which did not rotate coherently with the dial.
 
 This revision also removes the incorrect crossing furniture band. All four revised icons were inspected enlarged and at 18/24/32/48 px on both backgrounds. SVG parsing, paint references and rendered bounds passed.
+
+The compass assembly is rotated a further 12 degrees counterclockwise to bring its face axis closer to the source (approximately 40 degrees from the horizontal). The needle heading is adjusted independently within the shared projected dial, as a compass needle is not fixed to its case.
