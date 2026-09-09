@@ -71,3 +71,12 @@ Inspected final composites at 432 px and 18/24/32/48 px on light and dark backgr
 - Twin-float 10 now matches the normalized placement and scale of 50/51; 51 retains its lights. Central-float 43, distinct land aircraft and individual jet configurations remain separate designs. Icons 56/57 retain their foreground-aircraft layer order.
 
 Reviewed 40 changed SVGs at 432 px and 18/24/32/48 px on light and dark backgrounds. Extra magnification exposed a residual carrier wing/badge seam, prompting another shared wing-root correction. Geometry checks cover full family groups including transforms, regular hexagons, foreground exceptions, SVG parsing, external dependencies and raster bounds. Preview DOM checks cover 86 entries and 344 image references. These remain category-symbol reconstructions, not scale drawings of every referenced weapon.
+
+
+## Small-size contrast review
+
+After independent five-background review, strengthened the external contours of equipment 13/14 while keeping shell bands lighter. Equipment 26 now separates the heavier mast, boom and hook from thinner lattice braces. Equipment 32 restores the light-colored center of its base. Equipment 51 restores the dark outline behind the night lettering and uses radial, fading navigation lights instead of hard concentric rings; its shared twin-float geometry remains unchanged.
+
+Resource 3 was checked against both `original/poi/img/material/03.png` and `3_big.png`. Its two steel ingots now have deeper side faces and closer placement, retaining the existing metallic face treatment. The larger source supports correcting volume and spacing, rather than redesigning the material symbol.
+
+Reviewed all six modified assets at 432 px on white and dark backgrounds and at 16/18/24/32/48 px on white, dark, gray, dark green and muted red. Small-size acceptance applies only to equipment and resources. No operation, ship-state or proficiency asset was changed for artificial small-size legibility. The previously reviewed aircraft-family scale and badge placement are retained; the review did not establish a sufficient reason for another family-wide resize. These are resvg asset checks, not a Chrome/Electron rendering test.
