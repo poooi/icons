@@ -37,3 +37,11 @@ Use shared geometry only where the source actually shares it. For example, a sma
 All 27 SVGs were rendered and compared against their sources at eight times native viewBox width and at 18/24/32/48 px on light and dark backgrounds. The enlarged review caught an incorrect ingot side face, an opaque gear aperture, missing paint definitions and green edging on the pink drum; these were corrected before publication. Rendered alpha bounds stay within the canvas. XML parsing, local paint references and absence of embedded bitmap/font dependencies were checked. The preview's 86 entries, 344 image references, filtering, source switching and size/theme controls passed the offline DOM check.
 
 Lettering uses outlined Noto Serif JP ExtraBold (800). The source's bitmap typeface is not reproduced exactly. Small decoration and mineral surfaces remain interpretations, with simplified shading; this revision still needs visual feedback on fidelity. No permanent generation script was added. Original PNGs and historical SVG references remain available in the preview.
+
+## Follow-up: ties, button surfaces and outlines
+
+The three furniture boxes now show both visible runs of the wrapping band leading into the top knot, continuing over the lid and down the box. The approved botanical decoration is retained.
+
+Operation buttons gain shaded panels and inset edge highlights. The factory hammer has a distinct striking face, metal neck, curved claw and shaded red grip; its two fasteners have flat round heads and slender pointed shafts. The compass is reconstructed with its loop behind the left side of the case, rather than at the top of the ellipse. Its oblique dial, lower gold case and red/black needle follow the original button's placement. Barrel shading and the sortie aircraft's surface shading are strengthened.
+
+Button lettering outlines increase from 1 to 1.85 units; state lettering increases from 2.2 to 3.8 units, painted behind the glyph fill. The 12 revised icons were checked at 8 times native width and 18/24/32/48 px on both backgrounds, including the complete lettering bounds and the bands' continuity around the lid.
