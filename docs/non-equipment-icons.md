@@ -54,7 +54,7 @@ The shared border uses a metallic gradient face, a fine bright lip, a darker out
 
 ## Compass structure and sortie aircraft
 
-The compass's previous large side loop was an incorrect interpretation. The revised structure separates a short knurled left-side crown from the hook attached beneath the case. Parallel oblique rims and a displaced lower brass shell express its thickness; the red/black needle and central pivot establish the dial direction. This supersedes the earlier description of a loop behind the left side.
+The compass has a large suspension loop at its top and a smaller knurled crown on its side. In the oblique view, the top loop projects toward the upper left, while the side crown projects toward the lower left. An earlier revision reversed these two attachments; their positions and relative sizes are now corrected. Parallel oblique rims and a displaced lower brass shell express its thickness; the red/black needle and central pivot establish the dial direction. The corrected attachments were inspected at 624 px and 18/24/32/48 px on both backgrounds, with local paint references and rendered bounds checked.
 
 The sortie aircraft now has a complete continuous main wing beneath a rounded, tapered fuselage, an engine cowling, framed canopy, horizontal stabilizer, upright tail fin and two-bladed nose propeller. Separate surface shading clarifies the wing/body overlap without fragmenting the silhouette. It retains the source's cream color and front-left viewpoint.
 
