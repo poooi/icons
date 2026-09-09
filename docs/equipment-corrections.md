@@ -80,3 +80,14 @@ After independent five-background review, strengthened the external contours of 
 Resource 3 was checked against both `original/poi/img/material/03.png` and `3_big.png`. Its two steel ingots now have deeper side faces and closer placement, retaining the existing metallic face treatment. The larger source supports correcting volume and spacing, rather than redesigning the material symbol.
 
 Reviewed all six modified assets at 432 px on white and dark backgrounds and at 16/18/24/32/48 px on white, dark, gray, dark green and muted red. Small-size acceptance applies only to equipment and resources. No operation, ship-state or proficiency asset was changed for artificial small-size legibility. The previously reviewed aircraft-family scale and badge placement are retained; the review did not establish a sufficient reason for another family-wide resize. These are resvg asset checks, not a Chrome/Electron rendering test.
+
+
+## Connected details and submarine silhouette
+
+- 22: replaced two detached belly fragments with a connected bent landing-gear support and wheel end. Both the category emblem and main illustration of [Type 3 liaison aircraft](https://zh.kcwiki.cn/wiki/File:Soubi070HD.png) support this structure.
+- 44: restored the short upward projection as part of the silhouette instead of leaving an isolated dot. It appears in the original PNG and the category emblems of [Hien](https://zh.kcwiki.cn/wiki/File:Soubi176HD.png) and [Hayabusa II](https://zh.kcwiki.cn/wiki/File:Soubi221HD.png). Its precise component identity remains unspecified.
+- 42: replaced the full-height uniform grid with narrow forward openings and a solid stepped right-hand mass. Restored the dark upper-right region from the current category PNG without assigning it an unsupported component name. The older [submarine radar/periscope card](https://zh.kcwiki.cn/wiki/File:Soubi210HD.png) corroborates the asymmetric solid/open structure; the current PNG takes precedence where that archived emblem differs.
+
+Reviewed 16/24/48 px on dark, white and gray backgrounds, and 432 px close-ups. Isolated 22/44 airframes each render as one connected component with no border clipping; the preview DOM checks pass. These corrections preserve existing category colors, aircraft placement and badges. Torpedo 5 remains a non-blocking fidelity observation, not a confirmed defect.
+
+An independent reviewer rerendered these three final SVGs at 16/24/48/240 px against the current PNGs on dark, white and gray backgrounds and accepted all three structural corrections. The right-hand dark region in 42 is a simplified source shape, not a confirmed component identification.
