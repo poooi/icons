@@ -36,7 +36,7 @@ Every hexagonal aircraft badge is a regular point-up hexagon. In normalized 54-u
 
 ## Connectivity and overlap
 
-Build a complete airframe first, then compose it with the badge. Inspect both the isolated silhouette and the final layered icon.
+Build a complete airframe first, then compose it with the badge. Inspect both the isolated silhouette and the final layered icon. A foreground badge must overlap actual aircraft geometry by an area, not merely touch its edge. Do not offset the aircraft away from the badge or shorten a wing to follow the badge border: both can expose background-colored seams at large sizes. Preserve legitimate space between the wing and tail; the requirement is a complete airframe under the badge, not filling every nearby negative space.
 
 A connected path can still look broken when the badge hides a wing root and leaves an isolated tip. A contour can also technically connect while appearing to have a missing piece of wing. Check the complete wing profile, continuity into the fuselage, negative space against the frame and exposed tail/propeller details. Connected-component checks cannot judge these visual properties.
 

@@ -46,3 +46,15 @@ Very fine crane lattice and mast detail necessarily becomes less distinct at 18 
 - 60: reconstructed the complete main wing and its root with clean geometry; increased clearance above the frame so the visible wing no longer appears cut away. This supersedes the earlier narrow-outline repair.
 
 Reviewed the eight follow-up icons at 432 px and at 18/24/32/48 px, on dark and light backgrounds, with a further 648 px close-up of 60. Checked the final composited aircraft color regions, not only the isolated SVG paths. See the [reconstruction guide](reconstruction-guide.md) for the reusable rules.
+
+## Aircraft silhouettes under badges
+
+Reviewed all 26 aircraft-category SVGs at 432 px after feedback about visible gaps, with icon 39 as the example. Twelve icons changed: 6, 7, 8, 9, 38, 39, 40, 44, 45, 46, 47 and 60.
+
+- The shared carrier-family near wing (6/7/8/9/45/46) now continues beneath the badge. The same complete wing path is embedded in all six variants.
+- Removed upward offsets from 38/39/40 that separated the aircraft from its foreground hexagon. Moved 44/47 down one native unit to establish overlap instead of nearly tangent edges.
+- Removed the upward offset from 60 and completed its near-wing surface beneath the hexagon; moving it alone did not fill the missing wing area.
+
+The badge geometry, fills, stroke widths and lettering remain unchanged. Icons 56/57 retain their intentional aircraft-in-front ordering and were not edited. Other aircraft were reviewed but not changed in this pass.
+
+Inspected final composites at 432 px and 18/24/32/48 px on light and dark backgrounds. Separately rendered aircraft and badge layers confirm a positive overlap area in every changed icon; badge XML comparisons confirm unchanged badge geometry. This supplements visual inspection of the exposed silhouette and does not establish fidelity by itself. SVG parsing and the preview DOM checks passed. No mask, clipping cutout or thicker outline was used to conceal the gap.
