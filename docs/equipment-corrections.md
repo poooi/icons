@@ -34,3 +34,15 @@ The [aircraft reference gallery](https://poooi.github.io/icons/aircraft-referenc
 Compared all 16 requested silhouettes with the originals, enlarged and at 18/24/32/48 px, on dark and light backgrounds. Checked equal edge lengths and normalized size for every hexagon, foreground layer order on 56/57, and connected rendered silhouettes on 59/60 at 540 px. All 59 SVGs parse without external image, font or sprite dependencies. The preview's existing filtering, source switching, size and theme checks still pass.
 
 Very fine crane lattice and mast detail necessarily becomes less distinct at 18 px. Reference artwork is linked rather than bundled into the icon assets.
+
+## Follow-up visual corrections
+
+- 24: replaced the traced scalloped outline with concentric circles, rounded side handles and a clean support/base.
+- 37/38: simplified and smoothed the game-emblem airframe contours, removing tiny unrelated fragments.
+- 39: rebuilt the jet Keiun as one airframe and increased clearance from the badge so the final composite does not expose a disconnected tail fragment.
+- 40: corrected orientation using equipment 200's game emblem rather than the previous hand-built jet template; reviewed tail/wing placement and badge clearance.
+- 49: rebuilt a continuous heavy-bomber silhouette with integral wing/engine projections and tail.
+- 58: rebuilt a continuous night-bomber outline and removed hairline fragments while preserving the source orientation.
+- 60: reconstructed the complete main wing and its root with clean geometry; increased clearance above the frame so the visible wing no longer appears cut away. This supersedes the earlier narrow-outline repair.
+
+Reviewed the eight follow-up icons at 432 px and at 18/24/32/48 px, on dark and light backgrounds, with a further 648 px close-up of 60. Checked the final composited aircraft color regions, not only the isolated SVG paths. See the [reconstruction guide](reconstruction-guide.md) for the reusable rules.

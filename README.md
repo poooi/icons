@@ -39,6 +39,8 @@ See [Equipment corrections from game artwork](docs/equipment-corrections.md) for
 
 ## Reconstruction and review
 
+Start with the [Game icon reconstruction guide](docs/reconstruction-guide.md) for new icons and revisions. It defines reference priority, shared families, geometric badges, layering, visual completeness, and separate enlarged/small-size reviews.
+
 1. Preserve the original category colors, silhouette, orientation, composition, and identifying marks.
 2. Group related icons and reuse their shared geometry. Resolve unclear structures using game equipment illustrations first, with historical photographs as supplementary evidence, recording observations and uncertainty in [Icon families and reconstruction evidence](docs/icon-families.md).
 3. Use a bold Mincho serif for lettering. This pass uses Noto Serif JP ExtraBold at weight 800.

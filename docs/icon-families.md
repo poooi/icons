@@ -1,5 +1,7 @@
 # Icon families and reconstruction evidence
 
+Use the [reconstruction guide](reconstruction-guide.md) as the current checklist for new and revised icons.
+
 ## Rules for the whole collection
 
 The original game icon remains the composition reference. The corresponding game equipment illustration is the primary reference for uncertain structure; historical photographs are supplementary. This evidence does not replace the game icon with an illustration of a different object.
