@@ -27,8 +27,8 @@ The [aircraft reference gallery](https://poooi.github.io/icons/aircraft-referenc
 
 | Icons | Family | Geometry policy / current revision |
 | --- | --- | --- |
-| 6, 7, 8, 9, 45, 46 | Generic tractor-prop monoplane | Identical `tractor-monoplane` paths; source-sized canvases and badge layouts retained. Revised together. |
-| 10, 50, 51 | Twin-float monoplane | Identical `twin-float-monoplane` paths; placement adapts to source canvas/badge. Night 51 retains its lights and lettering; light centers follow the revised wing tips. Revised together. |
+| 6, 7, 8, 9, 45, 46 | Generic tractor-prop monoplane | Identical paths and `translate(5 4)` on 54-unit canvases. Daytime 6/7/8/9 share hexagon placement based on 9; night 45/46 retain their common rounded badge. |
+| 10, 50, 51 | Twin-float monoplane | Identical paths and `translate(2 4) scale(.9)` on 54-unit canvases. Night 51 retains its lights and lettering; light centers follow the revised wing tips. Revised together. |
 | 43 | Central-float fighter | Shares the float/strut drawing vocabulary, but retains one main float and an outboard stabilizer. Revised separately; A6M2-N photograph used for the main float and stabilizing float arrangement. |
 | 40, 56 | Conventional twin jets | Separate paths: Kikka and Me 262 differ in wings and source viewpoint. Nacelles clarified using the photographs below. |
 | 39 | Jet Keiun | Keep its own source silhouette; do not infer its structure from Kikka alone. Not revised here. |

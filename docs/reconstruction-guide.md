@@ -22,6 +22,10 @@ Group related icons before drawing. Identical source airframes or bodies should 
 
 Use one drawing vocabulary for related families, while retaining meaningful differences: propeller versus jet, tractor versus pusher, engine count, main wing versus canards, single versus twin floats, boat hull, rotor, gun count, antenna arrangement and viewpoint. Do not force all jets into one outline or treat the army-fighter category as exclusively twin-engined.
 
+Compare the complete normalized composition, not only path strings: viewBox, every ancestor transform, silhouette scale and position, badge geometry and layer order all affect the visible cut. The carrier family uses one 54-unit canvas and identical aircraft placement; daytime 6/7/8/9 share badge geometry and placement. Night 45/46 retain their shared rounded badge. Twin-float 10/50/51 share one 54-unit canvas and aircraft transform.
+
+Compare the complete normalized composition, not only path strings: viewBox, ancestor transforms, silhouette scale and position, badge geometry and layer order all affect the visible cut. Carrier 6/7/8/9/45/46 share a 54-unit canvas and aircraft transform; daytime 6/7/8/9 also share badge geometry and placement. Night 45/46 retain their common rounded badge. Twin-float 10/50/51 likewise share their canvas and aircraft transform.
+
 Shared paths may be embedded in each standalone SVG. Apply a family geometry correction to all corresponding members. No external sprite or runtime font dependency is required.
 
 ## Geometry and lettering
@@ -30,9 +34,9 @@ Shared paths may be embedded in each standalone SVG. Apply a family geometry cor
 - Use geometric primitives for genuinely geometric objects. A searchlight has a smooth circular lamp, explicit side handles/supports and a base; its blurry outer contour is not a scalloped circle.
 - Resolve structure, not just outline: torpedo rudder notches, open wrench jaws, crane lattice, propeller blades, nacelles, floats, struts, mast gaps and track openings must remain intentional.
 - Keep thin structures attached and large enough to render predictably. Do not rely on subpixel contacts or cover a malformed contour with an arbitrary thick stroke. Avoid tiny details that do not help recognition.
-- Equipment and state lettering is bold Mincho/serif. Operation buttons use Noto Sans JP Bold (700), following their sans-serif source labels. All four operation labels share one font size and baseline, fitted to the complete longest label (補給/入渠); preserve the font advance widths and use equal horizontal and vertical scale. The current outlined lettering uses Noto Serif JP ExtraBold (800); Source Han Serif or an appropriate free bold Japanese Mincho is also consistent with the design direction. Do not substitute sans-serif lettering outside the operation-button family. Deliver paths rather than requiring a font installation.
+- Equipment and state lettering is bold Mincho/serif. Operation buttons use Noto Sans JP Bold (700), following their sans-serif source labels. All four operation labels share one font size and baseline, fitted to the complete longest label (瑁滅郸/鍏ユ笭); preserve the font advance widths and use equal horizontal and vertical scale. The current outlined lettering uses Noto Serif JP ExtraBold (800); Source Han Serif or an appropriate free bold Japanese Mincho is also consistent with the design direction. Do not substitute sans-serif lettering outside the operation-button family. Deliver paths rather than requiring a font installation.
 
-Every hexagonal aircraft badge is a regular point-up hexagon. In normalized 54-unit coordinates, its circumradius and each side are 12.25, with stroke width 2.1. Scale uniformly for a different viewBox; never flatten it in one axis. Placement follows composition. Night rounded rectangular badges are a separate design, not distorted hexagons.
+Every hexagonal aircraft badge is a regular point-up hexagon. In normalized 54-unit coordinates, its circumradius and each side are 12.25, with stroke width 2.4. Scale uniformly for a different viewBox; never flatten it in one axis. Placement follows composition. Night rounded rectangular badges are a separate design, not distorted hexagons.
 
 ## Connectivity and overlap
 
@@ -48,6 +52,10 @@ Review each changed icon and its family against the source, on both dark and lig
 
 - Enlarged: inspect at least 8 times its native size (for example 432 px for a 54-unit icon), and zoom further for suspect joins. Look for uneven curves, kinks, accidental points, disconnected scraps, hairlines, unintended holes, flattened circles/hexagons, seams and clipped or incomplete wings. Large clean shapes are part of the deliverable, not just a means of producing a tiny image.
 - Actual use: inspect 18, 24, 32 and 48 px. Check color/silhouette recognition, occupied area, thin-line disappearance, unwanted merging and badge balance. Tiny text may become unreadable; the shape and color still need to communicate the category.
+
+Judge contrasting outline weight primarily on a light background, then confirm it on dark. Distinguish object outlines from same-color joins, struts and internal mechanical lines. Strengthen outlines without closing holes or changing the underlying silhouette. Shell bands are surface markings on a continuous body; gun barrels need straight shafts and deliberate muzzle ends.
+
+Judge contrasting outline weight primarily on a light background, then confirm it on dark. Distinguish object outlines from same-color joins, struts and internal mechanical lines. Strengthen outlines without closing holes. Shell bands are surface markings on a continuous body; gun barrels need straight shafts and deliberate muzzle ends.
 
 Compare related variants together. Recheck the final composite after any change to a badge, layer order or placement, even if the airframe path itself did not change. Iterate on discovered defects and rerender the changed assets. Do not describe small-size checks as enlarged visual review, or an isolated-path check as proof of a complete-looking composite.
 

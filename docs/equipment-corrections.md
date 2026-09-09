@@ -58,3 +58,16 @@ Reviewed all 26 aircraft-category SVGs at 432 px after feedback about visible ga
 The badge geometry, fills, stroke widths and lettering remain unchanged. Icons 56/57 retain their intentional aircraft-in-front ordering and were not edited. Other aircraft were reviewed but not changed in this pass.
 
 Inspected final composites at 432 px and 18/24/32/48 px on light and dark backgrounds. Separately rendered aircraft and badge layers confirm a positive overlap area in every changed icon; badge XML comparisons confirm unchanged badge geometry. This supplements visual inspection of the exposed silhouette and does not establish fidelity by itself. SVG parsing and the preview DOM checks passed. No mask, clipping cutout or thicker outline was used to conceal the gap.
+
+
+## Outline, projectile and aircraft-family follow-up
+
+- 1/2/3: rebuilt mount contours and straight twin/twin/triple barrel polygons, preserving category colors and orientation. References: [12.7 cm twin mount](https://uploads.kcwiki.cn/commons/3/38/Soubi002HD.png), [20.3 cm twin mount](https://uploads.kcwiki.cn/commons/e/e9/Soubi006HD.png), and [41 cm twin mount](https://uploads.kcwiki.cn/commons/f/fb/Soubi008HD.png). The large-gun category emblem governs its three-barrel count, even though the representative weapon illustration has two.
+- 4: straightened the secondary-gun barrel and simplified its mount against the [15.2 cm single mount](https://zh.kcwiki.cn/wiki/File:Soubi011HD.png).
+- 12: rebuilt one continuous shell with dark-red surface bands, three perforations and surrounding particles. Reference: [Type 3 shell](https://zh.kcwiki.cn/wiki/File:Soubi035HD.png), including the category emblem.
+- 31: rebuilt three individually closed, smooth rocket bodies with dark outlines. Reference: [WG42](https://uploads.kcwiki.cn/commons/9/91/Soubi126HD.png); the small category PNG supplies the outline absent from the card emblem.
+- Strengthened existing contrasting contours on 4/13/14/17/19/23/24/25/28/29/30/32/34/35. The sixteen regular aircraft hexagons now use a 2.4-unit outline at normalized size 54; their radius remains 12.25. Rounded night badges use 1.9. Structural lines such as float struts and radar plots are not outline-weight targets.
+- Reviewed all 26 aircraft icons against the original PNGs as families. Shared paths had hidden different effective scales: 6/7/8 now match 9's 54-unit composition and badge placement. All six carrier silhouettes (6/7/8/9/45/46) share paths and transforms, including a complete wing root under both badge styles. Colors and lettering remain category-specific.
+- Twin-float 10 now matches the normalized placement and scale of 50/51; 51 retains its lights. Central-float 43, distinct land aircraft and individual jet configurations remain separate designs. Icons 56/57 retain their foreground-aircraft layer order.
+
+Reviewed 40 changed SVGs at 432 px and 18/24/32/48 px on light and dark backgrounds. Extra magnification exposed a residual carrier wing/badge seam, prompting another shared wing-root correction. Geometry checks cover full family groups including transforms, regular hexagons, foreground exceptions, SVG parsing, external dependencies and raster bounds. Preview DOM checks cover 86 entries and 344 image references. These remain category-symbol reconstructions, not scale drawings of every referenced weapon.
