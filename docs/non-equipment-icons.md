@@ -45,3 +45,9 @@ The three furniture boxes now show both visible runs of the wrapping band leadin
 Operation buttons gain shaded panels and inset edge highlights. The factory hammer has a distinct striking face, metal neck, curved claw and shaded red grip; its two fasteners have flat round heads and slender pointed shafts. The compass is reconstructed with its loop behind the left side of the case, rather than at the top of the ellipse. Its oblique dial, lower gold case and red/black needle follow the original button's placement. Barrel shading and the sortie aircraft's surface shading are strengthened.
 
 Button lettering outlines increase from 1 to 1.85 units; state lettering increases from 2.2 to 3.8 units, painted behind the glyph fill. The 12 revised icons were checked at 8 times native width and 18/24/32/48 px on both backgrounds, including the complete lettering bounds and the bands' continuity around the lid.
+
+## Operation button type and metal frame
+
+The four operation labels now use outlined Noto Sans JP Bold (700). A single font size (approximately 15.20 units in the 78-unit viewBox) fits the longest label, `補給/入渠`, within 66 units of ink width plus its outline. All labels retain the font's native advance widths, equal X/Y scaling and one baseline. Shorter labels are centered without widening them. This supersedes the Mincho lettering described in earlier operation revisions; equipment and state labels retain Mincho.
+
+The shared border uses a metallic gradient face, a fine bright lip, a darker outer edge and an inset shadow. The four updated buttons were visually checked at 624 px and 18/24/32/48 px on both backgrounds. The longest label is complete, and SVG paint references and rendered bounds passed validation.
