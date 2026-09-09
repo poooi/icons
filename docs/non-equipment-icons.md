@@ -1,5 +1,7 @@
 # Non-equipment icon reconstruction
 
+This document records successive iterations, including superseded experiments. The [reconstruction guide](reconstruction-guide.md) is the current policy. Earlier 18–24 px renders of operation/state icons were diagnostic material, not an acceptance requirement at those unused sizes. The final furniture band, compass projection, operation sans-serif lettering and outline rules are described in the later sections.
+
 The collection contains 27 non-equipment SVGs: 11 resources, seven aircraft proficiency levels, four operation buttons and five ship-state labels. This revision rechecks all 27 against their PNG sources after feedback about distorted shapes. Equipment artwork is unchanged.
 
 ## References

@@ -42,14 +42,14 @@ See [Equipment corrections from game artwork](docs/equipment-corrections.md) for
 
 ## Reconstruction and review
 
-Start with the [Game icon reconstruction guide](docs/reconstruction-guide.md) for new icons and revisions. It defines reference priority, shared families, geometric badges, layering, visual completeness, and separate enlarged/small-size reviews.
+Start with the [Game icon reconstruction guide](docs/reconstruction-guide.md) for new icons and revisions. It is the consolidated policy from the September 2026 session: an ordered first-pass workflow, evidence template, family geometry, layering, category-specific review sizes, common failed approaches, optimization and consumer compatibility. The other correction notes retain historical context; later accepted corrections supersede earlier experiments.
 
 1. Preserve the original category colors, silhouette, orientation, composition, and identifying marks.
 2. Group related icons and reuse their shared geometry. Resolve unclear structures using game equipment illustrations first, with historical photographs as supplementary evidence, recording observations and uncertainty in [Icon families and reconstruction evidence](docs/icon-families.md).
-3. Use a bold Mincho serif for lettering. This pass uses Noto Serif JP ExtraBold at weight 800.
-4. Inspect enlarged views and 18, 24, 32, and 48 px sizes on light and dark backgrounds. Tiny lettering does not need to be readable; color and silhouette are the primary recognition cues.
+3. Use bold Mincho serif lettering for equipment and states (Noto Serif JP ExtraBold 800 in this pass). Operation buttons use uniformly scaled Noto Sans JP Bold 700 instead.
+4. Inspect enlarged views and actual use sizes on white and dark backgrounds. Equipment/resources require 16–24 px checks; other categories follow their consumers, including proficiency at 14 px high. Tiny lettering does not need to be readable; color and silhouette are the primary recognition cues.
 
-The equipment set has undergone several rounds of corrections to contours, internal details, badge placement, occupied area, and outlines needed on light backgrounds. Some blurred details remain interpretations. Changes in this standalone repository have not yet been integrated into poi.
+The equipment set has undergone several rounds of corrections to contours, internal details, badge placement, occupied area, and outlines needed on light backgrounds. Some blurred details remain interpretations. Integration into poi, including independently selectable equipment/resource sets and raster compatibility assets, is tracked in [poi PR #2720](https://github.com/poooi/poi/pull/2720).
 
 When completing another category, place its new SVGs under `svg/<category>/`, add the `svg` path in `catalog.js`, and update its status. Old resource SVGs remain available in the source selector as reference variants.
 

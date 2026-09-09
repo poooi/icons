@@ -13,15 +13,15 @@ The original game icon remains the composition reference. The corresponding game
 - Consult the corresponding game equipment illustration before interpreting an ambiguous structural feature; use historical photographs only when the game artwork still leaves it unclear. Record the image, equipment identity, observation and affected icons. Distinguish historical photographs, preserved/restored objects, replicas and conjectural game equipment.
 - Review the family together against the PNGs at large size and at 18/24/32/48 px on dark and light backgrounds. Inspect exceptions individually, especially details hidden by badges.
 
-For non-aircraft icons, apply the same grouping rule to gun mounts, torpedo/rocket shapes, radar/sonar symbols, resources and status/proficiency variants. Do not add realistic radar-display markings to an abstract symbol without evidence in the original. These groups have not received the aircraft revision described below.
+For non-aircraft icons, apply the same grouping rule to gun mounts, torpedo/rocket shapes, radar/sonar symbols, resources and status/proficiency variants. Do not add realistic radar-display markings to an abstract symbol without evidence in the original. Their later corrections are recorded in the equipment and non-equipment correction documents.
 
 ## Latest correction pass
 
-[Equipment correction notes](equipment-corrections.md) supersede the earlier status below for aircraft 56–60 and all hexagonal aircraft badges. The remaining family descriptions document the earlier reconstruction pass.
+[Equipment correction notes](equipment-corrections.md) record the subsequent game-art and structural corrections. The table below gives the final family policy; the photograph descriptions afterward retain their original historical observations and are not an outstanding-work checklist.
 
 ## Game-art reference update
 
-The [aircraft reference gallery](https://poooi.github.io/icons/aircraft-references.html) now contains 26 examined game illustrations for the 20 aircraft icons outside the accepted carrier family. See [the mapping](game-art-references.json) for equipment IDs and observations. The SVG revision table below records the earlier photograph-based pass; it does not claim that the new game-art revisions are complete. In particular, icon 44 is a general army-fighter category, not a twin-engine-only family, and archived equipment cards may show outdated badges (for example equipment 453). Current atlas badges remain authoritative.
+The [aircraft reference gallery](https://poooi.github.io/icons/aircraft-references.html) contains 26 examined game illustrations for the 20 aircraft icons outside the accepted carrier family. See [the mapping](game-art-references.json) for equipment IDs and observations. Icon 44 is a general army-fighter category, not a twin-engine-only family, and archived equipment cards may show outdated badges (for example equipment 453). Current atlas badges remain authoritative.
 
 ## Aircraft family map
 
@@ -31,12 +31,12 @@ The [aircraft reference gallery](https://poooi.github.io/icons/aircraft-referenc
 | 10, 50, 51 | Twin-float monoplane | Identical paths and `translate(2 4) scale(.9)` on 54-unit canvases. Night 51 retains its lights and lettering; light centers follow the revised wing tips. Revised together. |
 | 43 | Central-float fighter | Shares the float/strut drawing vocabulary, but retains one main float and an outboard stabilizer. Revised separately; A6M2-N photograph used for the main float and stabilizing float arrangement. |
 | 40, 56 | Conventional twin jets | Separate paths: Kikka and Me 262 differ in wings and source viewpoint. Nacelles clarified using the photographs below. |
-| 39 | Jet Keiun | Keep its own source silhouette; do not infer its structure from Kikka alone. Not revised here. |
-| 57, 60 | Shinden / hypothetical jet Shinden | Preserve canards and rear main wing. Propeller and jet propulsion must differ. Photo review started; paths unchanged in this revision. |
-| 59 | Flying wing | No conventional tail. Original-airframe photo verification still needed; paths unchanged. |
-| 33 | Large flying boat | Boat hull, high wing and multiple engines; distinct from floatplanes. Photo review started; paths unchanged. |
-| 21 | Autogyro | Rotor and propeller have different functions; retain both where shown. Not revised here. |
-| 22, 37, 38, 44, 47, 48, 49, 58 | Other aircraft silhouettes | Retain source-specific engine count, viewpoint and proportions; do not collapse into the generic carrier body. Further photograph-backed refinement pending. |
+| 39 | Jet Keiun | Keep its game-art silhouette and continuous wing/root overlap beneath the badge; do not infer its structure from Kikka alone. |
+| 57, 60 | Shinden / hypothetical jet Shinden | Preserve canards and rear main wing. Propeller and jet propulsion differ; use the jet's game illustration. 57 is a foreground-aircraft exception; 60 must retain a complete wing under its badge. |
+| 59 | Flying wing | No conventional tail; game artwork controls the connected silhouette and badge overlap. A reproduction photograph does not prove historical detail. |
+| 33 | Large flying boat | Boat hull, high wing and multiple engines; distinct from twin-float and central-float aircraft. |
+| 21 | Autogyro | Rotor and propeller have different functions; retain both where shown. |
+| 22, 37, 38, 44, 47, 48, 49, 58 | Other aircraft silhouettes | Retain source-specific engine count, viewpoint and proportions; do not collapse into the generic carrier body. Preserve 22's connected belly support, 44's connected upper projection, smooth 37/38 contours, and complete 49/58 wings. |
 
 Shared paths are embedded in each standalone SVG; there is no external sprite or runtime dependency. The family IDs make the intended correspondence explicit. A geometry change must be applied to every listed member of that family.
 
@@ -94,4 +94,4 @@ Historical aircraft photograph. Large central float, smaller outboard floats and
 
 ## Evidence limits
 
-These are category symbols, not scale drawings or confirmed identifications of the exact aircraft originally drawn by the game artist. The new float strut positions and tiny nacelle contours remain icon-scale interpretations. The generic carrier body intentionally continues the previously reviewed icon shape. Historical references constrain structure; they do not certify every contour. Pending groups above retain the first-pass reconstruction and must not be described as historically verified.
+These are category symbols, not scale drawings or confirmed identifications of the exact aircraft originally drawn by the game artist. Float strut positions and tiny nacelle contours remain icon-scale interpretations. The generic carrier body intentionally continues the previously reviewed icon shape. Historical references constrain structure; they do not certify every contour. Later game-art corrections and accepted structural fixes do not turn the earlier photographs into proof of exact fidelity.

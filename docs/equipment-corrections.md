@@ -1,5 +1,7 @@
 # Equipment corrections from game artwork
 
+This is a chronological change record. Follow the [reconstruction guide](reconstruction-guide.md) for current policy and the last applicable section below for accepted geometry. In particular, the early icon 42 interpretation was superseded by the final solid/open reconstruction, and the initial 2.1-unit hexagon stroke was superseded by 2.4 units. Do not restore an earlier rejected shape from this log.
+
 This revision addresses icons 5, 14, 16, 24, 26, 28, 29, 30, 31, 42 and 52, plus aircraft 56–60. The current game atlas controls category colors, labels and composition. The equipment illustrations and the clearer classification emblems in the upper-left of the cards resolve the blurred structures. The classification emblem is especially useful for abstract tools, facilities and personnel categories: the fairy artwork alone is not a literal depiction of those symbols.
 
 The 390 × 390 cards were downloaded through kcwiki's MediaWiki imageinfo API and visually inspected. Color-contour extraction was only a starting point. Thin structures that broke during extraction were redrawn, and noise was removed. Geometry remains an icon-scale reconstruction rather than a scale technical drawing.
