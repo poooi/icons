@@ -35,6 +35,8 @@ Files such as `svg/slotitem/6.svg` can be used directly as images. All lettering
 
 [Aircraft reference gallery](https://poooi.github.io/icons/aircraft-references.html) pairs 26 game equipment illustrations with 20 aircraft icons and their current SVG baselines. [The mapping](docs/game-art-references.json) records equipment IDs, source URLs and structural observations. The accepted carrier family is excluded. This reference collection does not mean those SVGs have already been revised against the game artwork.
 
+See [Equipment corrections from game artwork](docs/equipment-corrections.md) for the 11 non-aircraft corrections, aircraft 56–60, and the shared regular hexagon specification.
+
 ## Reconstruction and review
 
 1. Preserve the original category colors, silhouette, orientation, composition, and identifying marks.

@@ -13,6 +13,10 @@ The original game icon remains the composition reference. The corresponding game
 
 For non-aircraft icons, apply the same grouping rule to gun mounts, torpedo/rocket shapes, radar/sonar symbols, resources and status/proficiency variants. Do not add realistic radar-display markings to an abstract symbol without evidence in the original. These groups have not received the aircraft revision described below.
 
+## Latest correction pass
+
+[Equipment correction notes](equipment-corrections.md) supersede the earlier status below for aircraft 56–60 and all hexagonal aircraft badges. The remaining family descriptions document the earlier reconstruction pass.
+
 ## Game-art reference update
 
 The [aircraft reference gallery](https://poooi.github.io/icons/aircraft-references.html) now contains 26 examined game illustrations for the 20 aircraft icons outside the accepted carrier family. See [the mapping](game-art-references.json) for equipment IDs and observations. The SVG revision table below records the earlier photograph-based pass; it does not claim that the new game-art revisions are complete. In particular, icon 44 is a general army-fighter category, not a twin-engine-only family, and archived equipment cards may show outdated badges (for example equipment 453). Current atlas badges remain authoritative.
