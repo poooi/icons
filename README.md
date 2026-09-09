@@ -34,13 +34,15 @@ Files such as `svg/slotitem/6.svg` can be used directly as images. All lettering
 ## Reconstruction and review
 
 1. Preserve the original category colors, silhouette, orientation, composition, and identifying marks.
-2. Infer unclear details from the equipment concept when useful, then review whether those additions change recognition.
+2. Group related icons and reuse their shared geometry. Resolve unclear structures using equipment photographs, recording observations and uncertainty in [Icon families and reconstruction evidence](docs/icon-families.md).
 3. Use a bold Mincho serif for lettering. This pass uses Noto Serif JP ExtraBold at weight 800.
 4. Inspect enlarged views and 18, 24, 32, and 48 px sizes on light and dark backgrounds. Tiny lettering does not need to be readable; color and silhouette are the primary recognition cues.
 
 The equipment set has undergone several rounds of corrections to contours, internal details, badge placement, occupied area, and outlines needed on light backgrounds. Some blurred details remain interpretations. Changes in this standalone repository have not yet been integrated into poi.
 
 When completing another category, place its new SVGs under `svg/<category>/`, add the `svg` path in `catalog.js`, and update its status. The `referenceSvg` field is reserved for existing reference artwork while reconstruction is pending.
+
+See [Icon families and reconstruction evidence](docs/icon-families.md) for the aircraft family map, the photographs examined, and remaining review gaps.
 
 ## Sources
 
