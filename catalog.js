@@ -1373,14 +1373,15 @@ const icons = [
     "name": "熟练度 1",
     "category": "飞机熟练度",
     "group": "飞机熟练度",
-    "status": "待描摹",
-    "description": "img/airplane/alv1.png",
+    "status": "新描摹",
+    "description": "同系列统一条纹、间距与箭头，保留蓝／金等级区分。",
     "sources": [
       {
         "src": "original/poi/img/airplane/alv1.png",
         "label": "alv1.png"
       }
-    ]
+    ],
+    "svg": "svg/airplane/alv1.svg"
   },
   {
     "key": "img/airplane/alv2.png",
@@ -1388,14 +1389,15 @@ const icons = [
     "name": "熟练度 2",
     "category": "飞机熟练度",
     "group": "飞机熟练度",
-    "status": "待描摹",
-    "description": "img/airplane/alv2.png",
+    "status": "新描摹",
+    "description": "同系列统一条纹、间距与箭头，保留蓝／金等级区分。",
     "sources": [
       {
         "src": "original/poi/img/airplane/alv2.png",
         "label": "alv2.png"
       }
-    ]
+    ],
+    "svg": "svg/airplane/alv2.svg"
   },
   {
     "key": "img/airplane/alv3.png",
@@ -1403,14 +1405,15 @@ const icons = [
     "name": "熟练度 3",
     "category": "飞机熟练度",
     "group": "飞机熟练度",
-    "status": "待描摹",
-    "description": "img/airplane/alv3.png",
+    "status": "新描摹",
+    "description": "同系列统一条纹、间距与箭头，保留蓝／金等级区分。",
     "sources": [
       {
         "src": "original/poi/img/airplane/alv3.png",
         "label": "alv3.png"
       }
-    ]
+    ],
+    "svg": "svg/airplane/alv3.svg"
   },
   {
     "key": "img/airplane/alv4.png",
@@ -1418,14 +1421,15 @@ const icons = [
     "name": "熟练度 4",
     "category": "飞机熟练度",
     "group": "飞机熟练度",
-    "status": "待描摹",
-    "description": "img/airplane/alv4.png",
+    "status": "新描摹",
+    "description": "同系列统一条纹、间距与箭头，保留蓝／金等级区分。",
     "sources": [
       {
         "src": "original/poi/img/airplane/alv4.png",
         "label": "alv4.png"
       }
-    ]
+    ],
+    "svg": "svg/airplane/alv4.svg"
   },
   {
     "key": "img/airplane/alv5.png",
@@ -1433,14 +1437,15 @@ const icons = [
     "name": "熟练度 5",
     "category": "飞机熟练度",
     "group": "飞机熟练度",
-    "status": "待描摹",
-    "description": "img/airplane/alv5.png",
+    "status": "新描摹",
+    "description": "同系列统一条纹、间距与箭头，保留蓝／金等级区分。",
     "sources": [
       {
         "src": "original/poi/img/airplane/alv5.png",
         "label": "alv5.png"
       }
-    ]
+    ],
+    "svg": "svg/airplane/alv5.svg"
   },
   {
     "key": "img/airplane/alv6.png",
@@ -1448,14 +1453,15 @@ const icons = [
     "name": "熟练度 6",
     "category": "飞机熟练度",
     "group": "飞机熟练度",
-    "status": "待描摹",
-    "description": "img/airplane/alv6.png",
+    "status": "新描摹",
+    "description": "同系列统一条纹、间距与箭头，保留蓝／金等级区分。",
     "sources": [
       {
         "src": "original/poi/img/airplane/alv6.png",
         "label": "alv6.png"
       }
-    ]
+    ],
+    "svg": "svg/airplane/alv6.svg"
   },
   {
     "key": "img/airplane/alv7.png",
@@ -1463,14 +1469,15 @@ const icons = [
     "name": "熟练度 7",
     "category": "飞机熟练度",
     "group": "飞机熟练度",
-    "status": "待描摹",
-    "description": "img/airplane/alv7.png",
+    "status": "新描摹",
+    "description": "同系列统一条纹、间距与箭头，保留蓝／金等级区分。",
     "sources": [
       {
         "src": "original/poi/img/airplane/alv7.png",
         "label": "alv7.png"
       }
-    ]
+    ],
+    "svg": "svg/airplane/alv7.svg"
   },
   {
     "key": "material/1",
@@ -1478,8 +1485,8 @@ const icons = [
     "name": "燃料",
     "category": "资源",
     "group": "资源",
-    "status": "待描摹",
-    "description": "保留现有 SVG 作为参考；尚未按此次规则重绘。",
+    "status": "新描摹",
+    "description": "按原版资源图描摹；结合较大位图核对结构。",
     "sources": [
       {
         "src": "original/poi/img/material/01.png",
@@ -1492,9 +1499,13 @@ const icons = [
       {
         "src": "original/poi/img/material/1_big.png",
         "label": "已有位图版本（1_big.png）"
+      },
+      {
+        "src": "reference-svg/material/1.svg",
+        "label": "旧版 poi SVG（参考）"
       }
     ],
-    "referenceSvg": "reference-svg/material/1.svg"
+    "svg": "svg/material/1.svg"
   },
   {
     "key": "material/10",
@@ -1502,8 +1513,8 @@ const icons = [
     "name": "家具箱（小）",
     "category": "资源",
     "group": "资源",
-    "status": "待描摹",
-    "description": "保留现有 SVG 作为参考；尚未按此次规则重绘。",
+    "status": "新描摹",
+    "description": "按原版资源图描摹；结合较大位图核对结构。",
     "sources": [
       {
         "src": "original/poi/img/material/010.png",
@@ -1512,9 +1523,13 @@ const icons = [
       {
         "src": "original/poi/img/material/10.png",
         "label": "已有位图版本（10.png）"
+      },
+      {
+        "src": "reference-svg/material/10.svg",
+        "label": "旧版 poi SVG（参考）"
       }
     ],
-    "referenceSvg": "reference-svg/material/10.svg"
+    "svg": "svg/material/10.svg"
   },
   {
     "key": "material/11",
@@ -1522,8 +1537,8 @@ const icons = [
     "name": "家具箱（中）",
     "category": "资源",
     "group": "资源",
-    "status": "待描摹",
-    "description": "保留现有 SVG 作为参考；尚未按此次规则重绘。",
+    "status": "新描摹",
+    "description": "按原版资源图描摹；结合较大位图核对结构。",
     "sources": [
       {
         "src": "original/poi/img/material/011.png",
@@ -1532,9 +1547,13 @@ const icons = [
       {
         "src": "original/poi/img/material/11.png",
         "label": "已有位图版本（11.png）"
+      },
+      {
+        "src": "reference-svg/material/11.svg",
+        "label": "旧版 poi SVG（参考）"
       }
     ],
-    "referenceSvg": "reference-svg/material/11.svg"
+    "svg": "svg/material/11.svg"
   },
   {
     "key": "material/12",
@@ -1542,8 +1561,8 @@ const icons = [
     "name": "家具箱（大）",
     "category": "资源",
     "group": "资源",
-    "status": "待描摹",
-    "description": "保留现有 SVG 作为参考；尚未按此次规则重绘。",
+    "status": "新描摹",
+    "description": "按原版资源图描摹；结合较大位图核对结构。",
     "sources": [
       {
         "src": "original/poi/img/material/012.png",
@@ -1552,9 +1571,13 @@ const icons = [
       {
         "src": "original/poi/img/material/12.png",
         "label": "已有位图版本（12.png）"
+      },
+      {
+        "src": "reference-svg/material/12.svg",
+        "label": "旧版 poi SVG（参考）"
       }
     ],
-    "referenceSvg": "reference-svg/material/12.svg"
+    "svg": "svg/material/12.svg"
   },
   {
     "key": "material/2",
@@ -1562,8 +1585,8 @@ const icons = [
     "name": "弹药",
     "category": "资源",
     "group": "资源",
-    "status": "待描摹",
-    "description": "保留现有 SVG 作为参考；尚未按此次规则重绘。",
+    "status": "新描摹",
+    "description": "按原版资源图描摹；结合较大位图核对结构。",
     "sources": [
       {
         "src": "original/poi/img/material/02.png",
@@ -1576,9 +1599,13 @@ const icons = [
       {
         "src": "original/poi/img/material/2_big.png",
         "label": "已有位图版本（2_big.png）"
+      },
+      {
+        "src": "reference-svg/material/2.svg",
+        "label": "旧版 poi SVG（参考）"
       }
     ],
-    "referenceSvg": "reference-svg/material/2.svg"
+    "svg": "svg/material/2.svg"
   },
   {
     "key": "material/3",
@@ -1586,8 +1613,8 @@ const icons = [
     "name": "钢材",
     "category": "资源",
     "group": "资源",
-    "status": "待描摹",
-    "description": "保留现有 SVG 作为参考；尚未按此次规则重绘。",
+    "status": "新描摹",
+    "description": "按原版资源图描摹；结合较大位图核对结构。",
     "sources": [
       {
         "src": "original/poi/img/material/03.png",
@@ -1600,9 +1627,13 @@ const icons = [
       {
         "src": "original/poi/img/material/3_big.png",
         "label": "已有位图版本（3_big.png）"
+      },
+      {
+        "src": "reference-svg/material/3.svg",
+        "label": "旧版 poi SVG（参考）"
       }
     ],
-    "referenceSvg": "reference-svg/material/3.svg"
+    "svg": "svg/material/3.svg"
   },
   {
     "key": "material/4",
@@ -1610,8 +1641,8 @@ const icons = [
     "name": "铝土矿",
     "category": "资源",
     "group": "资源",
-    "status": "待描摹",
-    "description": "保留现有 SVG 作为参考；尚未按此次规则重绘。",
+    "status": "新描摹",
+    "description": "按原版资源图描摹；结合较大位图核对结构。",
     "sources": [
       {
         "src": "original/poi/img/material/04.png",
@@ -1624,9 +1655,13 @@ const icons = [
       {
         "src": "original/poi/img/material/4_big.png",
         "label": "已有位图版本（4_big.png）"
+      },
+      {
+        "src": "reference-svg/material/4.svg",
+        "label": "旧版 poi SVG（参考）"
       }
     ],
-    "referenceSvg": "reference-svg/material/4.svg"
+    "svg": "svg/material/4.svg"
   },
   {
     "key": "material/5",
@@ -1634,8 +1669,8 @@ const icons = [
     "name": "高速建造材",
     "category": "资源",
     "group": "资源",
-    "status": "待描摹",
-    "description": "保留现有 SVG 作为参考；尚未按此次规则重绘。",
+    "status": "新描摹",
+    "description": "按原版资源图描摹；结合较大位图核对结构。",
     "sources": [
       {
         "src": "original/poi/img/material/05.png",
@@ -1648,9 +1683,13 @@ const icons = [
       {
         "src": "original/poi/img/material/5_big.png",
         "label": "已有位图版本（5_big.png）"
+      },
+      {
+        "src": "reference-svg/material/5.svg",
+        "label": "旧版 poi SVG（参考）"
       }
     ],
-    "referenceSvg": "reference-svg/material/5.svg"
+    "svg": "svg/material/5.svg"
   },
   {
     "key": "material/6",
@@ -1658,8 +1697,8 @@ const icons = [
     "name": "高速修复材",
     "category": "资源",
     "group": "资源",
-    "status": "待描摹",
-    "description": "保留现有 SVG 作为参考；尚未按此次规则重绘。",
+    "status": "新描摹",
+    "description": "按原版资源图描摹；结合较大位图核对结构。",
     "sources": [
       {
         "src": "original/poi/img/material/06.png",
@@ -1672,9 +1711,13 @@ const icons = [
       {
         "src": "original/poi/img/material/6_big.png",
         "label": "已有位图版本（6_big.png）"
+      },
+      {
+        "src": "reference-svg/material/6.svg",
+        "label": "旧版 poi SVG（参考）"
       }
     ],
-    "referenceSvg": "reference-svg/material/6.svg"
+    "svg": "svg/material/6.svg"
   },
   {
     "key": "material/7",
@@ -1682,8 +1725,8 @@ const icons = [
     "name": "开发资材",
     "category": "资源",
     "group": "资源",
-    "status": "待描摹",
-    "description": "保留现有 SVG 作为参考；尚未按此次规则重绘。",
+    "status": "新描摹",
+    "description": "按原版资源图描摹；结合较大位图核对结构。",
     "sources": [
       {
         "src": "original/poi/img/material/07.png",
@@ -1696,9 +1739,13 @@ const icons = [
       {
         "src": "original/poi/img/material/7_big.png",
         "label": "已有位图版本（7_big.png）"
+      },
+      {
+        "src": "reference-svg/material/7.svg",
+        "label": "旧版 poi SVG（参考）"
       }
     ],
-    "referenceSvg": "reference-svg/material/7.svg"
+    "svg": "svg/material/7.svg"
   },
   {
     "key": "material/8",
@@ -1706,8 +1753,8 @@ const icons = [
     "name": "改修资材",
     "category": "资源",
     "group": "资源",
-    "status": "待描摹",
-    "description": "保留现有 SVG 作为参考；尚未按此次规则重绘。",
+    "status": "新描摹",
+    "description": "按原版资源图描摹；结合较大位图核对结构。",
     "sources": [
       {
         "src": "original/poi/img/material/08.png",
@@ -1720,9 +1767,13 @@ const icons = [
       {
         "src": "original/poi/img/material/8_big.png",
         "label": "已有位图版本（8_big.png）"
+      },
+      {
+        "src": "reference-svg/material/8.svg",
+        "label": "旧版 poi SVG（参考）"
       }
     ],
-    "referenceSvg": "reference-svg/material/8.svg"
+    "svg": "svg/material/8.svg"
   },
   {
     "key": "img/operation/build.png",
@@ -1730,14 +1781,15 @@ const icons = [
     "name": "工厂",
     "category": "作战",
     "group": "作战",
-    "status": "待描摹",
-    "description": "img/operation/build.png",
+    "status": "新描摹",
+    "description": "统一按钮边框与蜂巢底纹，粗明朝体文字转路径。",
     "sources": [
       {
         "src": "original/poi/img/operation/build.png",
         "label": "build.png"
       }
-    ]
+    ],
+    "svg": "svg/operation/build.svg"
   },
   {
     "key": "img/operation/expedition.png",
@@ -1745,14 +1797,15 @@ const icons = [
     "name": "远征",
     "category": "作战",
     "group": "作战",
-    "status": "待描摹",
-    "description": "img/operation/expedition.png",
+    "status": "新描摹",
+    "description": "统一按钮边框与蜂巢底纹，粗明朝体文字转路径。",
     "sources": [
       {
         "src": "original/poi/img/operation/expedition.png",
         "label": "expedition.png"
       }
-    ]
+    ],
+    "svg": "svg/operation/expedition.svg"
   },
   {
     "key": "img/operation/repair.png",
@@ -1760,14 +1813,15 @@ const icons = [
     "name": "入渠",
     "category": "作战",
     "group": "作战",
-    "status": "待描摹",
-    "description": "img/operation/repair.png",
+    "status": "新描摹",
+    "description": "统一按钮边框与蜂巢底纹，粗明朝体文字转路径。",
     "sources": [
       {
         "src": "original/poi/img/operation/repair.png",
         "label": "repair.png"
       }
-    ]
+    ],
+    "svg": "svg/operation/repair.svg"
   },
   {
     "key": "img/operation/sortie.png",
@@ -1775,14 +1829,15 @@ const icons = [
     "name": "出击",
     "category": "作战",
     "group": "作战",
-    "status": "待描摹",
-    "description": "img/operation/sortie.png",
+    "status": "新描摹",
+    "description": "统一按钮边框与蜂巢底纹，粗明朝体文字转路径。",
     "sources": [
       {
         "src": "original/poi/img/operation/sortie.png",
         "label": "sortie.png"
       }
-    ]
+    ],
+    "svg": "svg/operation/sortie.svg"
   },
   {
     "key": "state/0",
@@ -1790,14 +1845,15 @@ const icons = [
     "name": "远征",
     "category": "状态",
     "group": "状态",
-    "status": "待描摹",
-    "description": "views/components/main/assets/img/state/0.png",
+    "status": "新描摹",
+    "description": "统一爆裂底纹与倾斜文字，保留各状态配色。",
     "sources": [
       {
         "src": "original/poi/views/components/main/assets/img/state/0.png",
         "label": "poi 原图"
       }
-    ]
+    ],
+    "svg": "svg/state/0.svg"
   },
   {
     "key": "state/1",
@@ -1805,14 +1861,15 @@ const icons = [
     "name": "入渠",
     "category": "状态",
     "group": "状态",
-    "status": "待描摹",
-    "description": "views/components/main/assets/img/state/1.png",
+    "status": "新描摹",
+    "description": "统一爆裂底纹与倾斜文字，保留各状态配色。",
     "sources": [
       {
         "src": "original/poi/views/components/main/assets/img/state/1.png",
         "label": "poi 原图"
       }
-    ]
+    ],
+    "svg": "svg/state/1.svg"
   },
   {
     "key": "state/2",
@@ -1820,14 +1877,15 @@ const icons = [
     "name": "小破",
     "category": "状态",
     "group": "状态",
-    "status": "待描摹",
-    "description": "views/components/main/assets/img/state/2.png",
+    "status": "新描摹",
+    "description": "统一爆裂底纹与倾斜文字，保留各状态配色。",
     "sources": [
       {
         "src": "original/poi/views/components/main/assets/img/state/2.png",
         "label": "poi 原图"
       }
-    ]
+    ],
+    "svg": "svg/state/2.svg"
   },
   {
     "key": "state/3",
@@ -1835,14 +1893,15 @@ const icons = [
     "name": "中破",
     "category": "状态",
     "group": "状态",
-    "status": "待描摹",
-    "description": "views/components/main/assets/img/state/3.png",
+    "status": "新描摹",
+    "description": "统一爆裂底纹与倾斜文字，保留各状态配色。",
     "sources": [
       {
         "src": "original/poi/views/components/main/assets/img/state/3.png",
         "label": "poi 原图"
       }
-    ]
+    ],
+    "svg": "svg/state/3.svg"
   },
   {
     "key": "state/4",
@@ -1850,13 +1909,14 @@ const icons = [
     "name": "大破",
     "category": "状态",
     "group": "状态",
-    "status": "待描摹",
-    "description": "views/components/main/assets/img/state/4.png",
+    "status": "新描摹",
+    "description": "统一爆裂底纹与倾斜文字，保留各状态配色。",
     "sources": [
       {
         "src": "original/poi/views/components/main/assets/img/state/4.png",
         "label": "poi 原图"
       }
-    ]
+    ],
+    "svg": "svg/state/4.svg"
   }
 ];

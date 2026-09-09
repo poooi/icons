@@ -11,18 +11,21 @@ The default branch is `gh-pages`. GitHub Pages serves the repository root direct
 | Category | Entries | Status |
 | --- | ---: | --- |
 | Equipment | 59 | First SVG pass completed and reviewed |
-| Resources | 11 | Pending; existing poi SVGs included as references |
-| Aircraft proficiency | 7 | Pending |
-| Operations | 4 | Pending |
-| Ship status | 5 | Pending |
+| Resources | 11 | First SVG pass completed and reviewed |
+| Aircraft proficiency | 7 | First SVG pass completed and reviewed |
+| Operations | 4 | First SVG pass completed and reviewed |
+| Ship status | 5 | First SVG pass completed and reviewed |
 
 There are 86 logical entries. The collection includes 152 relevant PNG files from poi, plus 59 equipment icons extracted from the game atlas. Size variants and historical versions are grouped under their corresponding entry and can be selected in the preview.
 
 The scope covers game-derived icons and their existing variants. It excludes the poi logo, application header artwork, Touch Bar icons, and application placeholders. See `sources.json` for the included and excluded files.
 
+All 86 entries now have reconstructed SVGs. The [non-equipment reconstruction notes](docs/non-equipment-icons.md) describe the latest 27 assets, shared families and review limits.
+
 ## Layout
 
 - `svg/slotitem/<id>.svg`: reconstructed equipment icons, using actual game icon IDs.
+- `svg/material/`, `svg/airplane/`, `svg/operation/`, `svg/state/`: reconstructed resources, proficiency marks, operation buttons and state labels.
 - `original/slotitem/<id>.png`: icons extracted from the game atlas.
 - `original/poi/`: relevant PNGs from poi, preserving their source directory structure below `assets/`, or their full repository-relative path for files outside `assets/`.
 - `reference-svg/material/`: existing poi resource SVGs for comparison, **not newly reconstructed assets**.
@@ -48,7 +51,7 @@ Start with the [Game icon reconstruction guide](docs/reconstruction-guide.md) fo
 
 The equipment set has undergone several rounds of corrections to contours, internal details, badge placement, occupied area, and outlines needed on light backgrounds. Some blurred details remain interpretations. Changes in this standalone repository have not yet been integrated into poi.
 
-When completing another category, place its new SVGs under `svg/<category>/`, add the `svg` path in `catalog.js`, and update its status. The `referenceSvg` field is reserved for existing reference artwork while reconstruction is pending.
+When completing another category, place its new SVGs under `svg/<category>/`, add the `svg` path in `catalog.js`, and update its status. Old resource SVGs remain available in the source selector as reference variants.
 
 See [Icon families and reconstruction evidence](docs/icon-families.md) for the aircraft family map, the photographs examined, and remaining review gaps.
 
