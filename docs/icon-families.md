@@ -2,16 +2,20 @@
 
 ## Rules for the whole collection
 
-The original game icon remains the composition reference. A photograph resolves uncertain structure; it does not replace the game icon with an illustration of a different object.
+The original game icon remains the composition reference. The corresponding game equipment illustration is the primary reference for uncertain structure; historical photographs are supplementary. This evidence does not replace the game icon with an illustration of a different object.
 
 - Group icons by shared geometry before drawing. Reuse the same paths for genuinely identical bodies, changing only the source-defined color, lettering, badge or placement.
 - Keep meaningful differences: propulsion, number and position of engines, wing layout, float arrangement, barrel count, antenna shape and viewpoint. Similar category names alone do not justify identical silhouettes.
 - Use the same curve treatment and detail scale within a family. Keep negative spaces large enough to survive small rendering sizes. Avoid panel lines, rivets and other details that do not help recognition.
 - Retain source colors and badge placement. Lettering uses outlined Noto Serif JP ExtraBold (800), a Mincho serif. Tiny text need not be readable.
-- Consult photographs of the relevant equipment before interpreting an ambiguous structural feature. Record the image, equipment identity, observation and affected icons. Distinguish historical photographs, preserved/restored objects, replicas and conjectural game equipment.
+- Consult the corresponding game equipment illustration before interpreting an ambiguous structural feature; use historical photographs only when the game artwork still leaves it unclear. Record the image, equipment identity, observation and affected icons. Distinguish historical photographs, preserved/restored objects, replicas and conjectural game equipment.
 - Review the family together against the PNGs at large size and at 18/24/32/48 px on dark and light backgrounds. Inspect exceptions individually, especially details hidden by badges.
 
 For non-aircraft icons, apply the same grouping rule to gun mounts, torpedo/rocket shapes, radar/sonar symbols, resources and status/proficiency variants. Do not add realistic radar-display markings to an abstract symbol without evidence in the original. These groups have not received the aircraft revision described below.
+
+## Game-art reference update
+
+The [aircraft reference gallery](https://poooi.github.io/icons/aircraft-references.html) now contains 26 examined game illustrations for the 20 aircraft icons outside the accepted carrier family. See [the mapping](game-art-references.json) for equipment IDs and observations. The SVG revision table below records the earlier photograph-based pass; it does not claim that the new game-art revisions are complete. In particular, icon 44 is a general army-fighter category, not a twin-engine-only family, and archived equipment cards may show outdated badges (for example equipment 453). Current atlas badges remain authoritative.
 
 ## Aircraft family map
 

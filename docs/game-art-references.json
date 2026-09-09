@@ -1,0 +1,309 @@
+{
+  "retrieved": "2026-09-09",
+  "source": "kcwiki MediaWiki imageinfo API; SoubiNNNHD.png",
+  "mapping": "Equipment api_id maps to icon api_type[3] in api_start2. Illustrations are representative category references, not proof of the exact source artist model.",
+  "icons": [
+    {
+      "icon": 10,
+      "equipment": [
+        {
+          "id": 25,
+          "name": "零式水上偵察機",
+          "url": "https://uploads.kcwiki.cn/commons/e/ed/Soubi025HD.png",
+          "descriptionurl": "https://zh.kcwiki.cn/wiki/File:Soubi025HD.png",
+          "descriptionshorturl": "https://zh.kcwiki.cn/index.php?curid=35230"
+        },
+        {
+          "id": 26,
+          "name": "瑞雲",
+          "url": "https://uploads.kcwiki.cn/commons/6/67/Soubi026HD.png",
+          "descriptionurl": "https://zh.kcwiki.cn/wiki/File:Soubi026HD.png",
+          "descriptionshorturl": "https://zh.kcwiki.cn/index.php?curid=35289"
+        },
+        {
+          "id": 59,
+          "name": "零式水上観測機",
+          "url": "https://uploads.kcwiki.cn/commons/4/4f/Soubi059HD.png",
+          "descriptionurl": "https://zh.kcwiki.cn/wiki/File:Soubi059HD.png",
+          "descriptionshorturl": "https://zh.kcwiki.cn/index.php?curid=35191"
+        }
+      ],
+      "observation": "Compare the low-wing twin-float layout of Zuiun with the biplane Type 0 observation seaplane. Keep the shared category silhouette; do not add a second wing to every member."
+    },
+    {
+      "icon": 21,
+      "equipment": [
+        {
+          "id": 69,
+          "name": "カ号観測機",
+          "url": "https://uploads.kcwiki.cn/commons/c/cc/Soubi069HD.png",
+          "descriptionurl": "https://zh.kcwiki.cn/wiki/File:Soubi069HD.png",
+          "descriptionshorturl": "https://zh.kcwiki.cn/index.php?curid=35395"
+        }
+      ],
+      "observation": "The Ka-go has a large overhead rotor, a separate forward propeller and fixed landing gear. It is an autogyro, not a generic helicopter."
+    },
+    {
+      "icon": 22,
+      "equipment": [
+        {
+          "id": 70,
+          "name": "三式指揮連絡機(対潜)",
+          "url": "https://uploads.kcwiki.cn/commons/7/7b/Soubi070HD.png",
+          "descriptionurl": "https://zh.kcwiki.cn/wiki/File:Soubi070HD.png",
+          "descriptionshorturl": "https://zh.kcwiki.cn/index.php?curid=35379"
+        }
+      ],
+      "observation": "The Type 3 liaison aircraft has a high wing, forward propeller and exposed fixed landing gear; preserve those distinguishing features."
+    },
+    {
+      "icon": 33,
+      "equipment": [
+        {
+          "id": 138,
+          "name": "二式大艇",
+          "url": "https://uploads.kcwiki.cn/commons/4/47/Soubi138HD.png",
+          "descriptionurl": "https://zh.kcwiki.cn/wiki/File:Soubi138HD.png",
+          "descriptionshorturl": "https://zh.kcwiki.cn/index.php?curid=35229"
+        }
+      ],
+      "observation": "The Type 2 flying boat has four wing-mounted propeller engines and a boat hull. Its outboard stabilizing floats differ from a twin-float seaplane."
+    },
+    {
+      "icon": 37,
+      "equipment": [
+        {
+          "id": 168,
+          "name": "九六式陸攻",
+          "url": "https://uploads.kcwiki.cn/commons/3/3a/Soubi168HD.png",
+          "descriptionurl": "https://zh.kcwiki.cn/wiki/File:Soubi168HD.png",
+          "descriptionshorturl": "https://zh.kcwiki.cn/index.php?curid=35427"
+        },
+        {
+          "id": 169,
+          "name": "一式陸攻",
+          "url": "https://uploads.kcwiki.cn/commons/6/61/Soubi169HD.png",
+          "descriptionurl": "https://zh.kcwiki.cn/wiki/File:Soubi169HD.png",
+          "descriptionshorturl": "https://zh.kcwiki.cn/index.php?curid=35339"
+        }
+      ],
+      "observation": "Both representative land attackers have two propeller engines. Match the source icon orientation and reconstruct the nacelles separately from the fuselage."
+    },
+    {
+      "icon": 38,
+      "equipment": [
+        {
+          "id": 175,
+          "name": "雷電",
+          "url": "https://uploads.kcwiki.cn/commons/1/1b/Soubi175HD.png",
+          "descriptionurl": "https://zh.kcwiki.cn/wiki/File:Soubi175HD.png",
+          "descriptionshorturl": "https://zh.kcwiki.cn/index.php?curid=35447"
+        }
+      ],
+      "observation": "Raiden is a single-engine tractor-prop fighter. Its short, full fuselage and source viewpoint differ from the approved generic carrier silhouette."
+    },
+    {
+      "icon": 39,
+      "equipment": [
+        {
+          "id": 199,
+          "name": "噴式景雲改",
+          "url": "https://uploads.kcwiki.cn/commons/c/c0/Soubi199HD.png",
+          "descriptionurl": "https://zh.kcwiki.cn/wiki/File:Soubi199HD.png",
+          "descriptionshorturl": "https://zh.kcwiki.cn/index.php?curid=35217"
+        }
+      ],
+      "observation": "The game jet Keiun has twin jet nacelles and its own wing and tail arrangement. Use this fictional game configuration rather than extrapolating from a historical propeller Keiun."
+    },
+    {
+      "icon": 40,
+      "equipment": [
+        {
+          "id": 200,
+          "name": "橘花改",
+          "url": "https://uploads.kcwiki.cn/commons/9/9f/Soubi200HD.png",
+          "descriptionurl": "https://zh.kcwiki.cn/wiki/File:Soubi200HD.png",
+          "descriptionshorturl": "https://zh.kcwiki.cn/index.php?curid=35188"
+        }
+      ],
+      "observation": "Kikka has two separate underslung jet nacelles, a conventional tail and comparatively straight wings. The game illustration is the primary layout reference."
+    },
+    {
+      "icon": 43,
+      "equipment": [
+        {
+          "id": 165,
+          "name": "二式水戦改",
+          "url": "https://uploads.kcwiki.cn/commons/d/d3/Soubi165HD.png",
+          "descriptionurl": "https://zh.kcwiki.cn/wiki/File:Soubi165HD.png",
+          "descriptionshorturl": "https://zh.kcwiki.cn/index.php?curid=35302"
+        },
+        {
+          "id": 217,
+          "name": "強風改",
+          "url": "https://uploads.kcwiki.cn/commons/c/cf/Soubi217HD.png",
+          "descriptionurl": "https://zh.kcwiki.cn/wiki/File:Soubi217HD.png",
+          "descriptionshorturl": "https://zh.kcwiki.cn/index.php?curid=35465"
+        }
+      ],
+      "observation": "Type 2 float fighter and Kyoufuu both show a central main float and smaller stabilizing floats. Keep the source category silhouette and common strut treatment."
+    },
+    {
+      "icon": 44,
+      "equipment": [
+        {
+          "id": 176,
+          "name": "三式戦 飛燕",
+          "url": "https://uploads.kcwiki.cn/commons/f/f1/Soubi176HD.png",
+          "descriptionurl": "https://zh.kcwiki.cn/wiki/File:Soubi176HD.png",
+          "descriptionshorturl": "https://zh.kcwiki.cn/index.php?curid=35360"
+        },
+        {
+          "id": 221,
+          "name": "一式戦 隼II型",
+          "url": "https://uploads.kcwiki.cn/commons/a/a1/Soubi221HD.png",
+          "descriptionurl": "https://zh.kcwiki.cn/wiki/File:Soubi221HD.png",
+          "descriptionshorturl": "https://zh.kcwiki.cn/index.php?curid=35299"
+        }
+      ],
+      "observation": "Hien and Hayabusa are single-engine army fighters. This category also contains other aircraft types; it must not be treated as a twin-engine-only family."
+    },
+    {
+      "icon": 47,
+      "equipment": [
+        {
+          "id": 269,
+          "name": "試製東海",
+          "url": "https://uploads.kcwiki.cn/commons/4/47/Soubi269HD.png",
+          "descriptionurl": "https://zh.kcwiki.cn/wiki/File:Soubi269HD.png",
+          "descriptionshorturl": "https://zh.kcwiki.cn/index.php?curid=35425"
+        }
+      ],
+      "observation": "Tokai has twin propeller engines and broad wings. The perspective and rounded fuselage distinguish it from the land-attacker category silhouette."
+    },
+    {
+      "icon": 48,
+      "equipment": [
+        {
+          "id": 453,
+          "name": "キ102乙",
+          "url": "https://uploads.kcwiki.cn/commons/3/32/Soubi453HD.png",
+          "descriptionurl": "https://zh.kcwiki.cn/wiki/File:Soubi453HD.png",
+          "descriptionshorturl": "https://zh.kcwiki.cn/index.php?curid=47813"
+        }
+      ],
+      "observation": "Ki-102 has twin propeller engines and a long nose. This archived equipment card shows an older land-fighter badge; use the current atlas assault badge and lettering."
+    },
+    {
+      "icon": 49,
+      "equipment": [
+        {
+          "id": 395,
+          "name": "深山",
+          "url": "https://uploads.kcwiki.cn/commons/9/90/Soubi395HD.png",
+          "descriptionurl": "https://zh.kcwiki.cn/wiki/File:Soubi395HD.png",
+          "descriptionshorturl": "https://zh.kcwiki.cn/index.php?curid=42856"
+        }
+      ],
+      "observation": "Shinzan has four propeller engines and a long airframe. Engine count and spacing must remain distinct from the twin-engine land attackers."
+    },
+    {
+      "icon": 50,
+      "equipment": [
+        {
+          "id": 102,
+          "name": "九八式水上偵察機(夜偵)",
+          "url": "https://uploads.kcwiki.cn/commons/d/da/Soubi102HD.png",
+          "descriptionurl": "https://zh.kcwiki.cn/wiki/File:Soubi102HD.png",
+          "descriptionshorturl": "https://zh.kcwiki.cn/index.php?curid=35276"
+        },
+        {
+          "id": 469,
+          "name": "零式水上偵察機11型乙改(夜偵)",
+          "url": "https://uploads.kcwiki.cn/commons/1/12/Soubi469HD.png",
+          "descriptionurl": "https://zh.kcwiki.cn/wiki/File:Soubi469HD.png",
+          "descriptionshorturl": "https://zh.kcwiki.cn/index.php?curid=49038"
+        }
+      ],
+      "observation": "Night reconnaissance equipment spans different airframes, including the biplane Type 98 and monoplane Type 0. Keep the shared game category symbol instead of imposing one specific aircraft on all variants."
+    },
+    {
+      "icon": 51,
+      "equipment": [
+        {
+          "id": 490,
+          "name": "試製 夜間瑞雲(攻撃装備)",
+          "url": "https://uploads.kcwiki.cn/commons/9/92/Soubi490HD.png",
+          "descriptionurl": "https://zh.kcwiki.cn/wiki/File:Soubi490HD.png",
+          "descriptionshorturl": "https://zh.kcwiki.cn/index.php?curid=51113"
+        }
+      ],
+      "observation": "Night Zuiun supplies the wing/float arrangement and night equipment context. Keep the original icon night lettering and light colors; use the illustration to check where structural details belong."
+    },
+    {
+      "icon": 56,
+      "equipment": [
+        {
+          "id": 516,
+          "name": "Me 262 A-1a/R1",
+          "url": "https://uploads.kcwiki.cn/commons/0/0f/Soubi516HD.png",
+          "descriptionurl": "https://zh.kcwiki.cn/wiki/File:Soubi516HD.png",
+          "descriptionshorturl": "https://zh.kcwiki.cn/index.php?curid=53599"
+        }
+      ],
+      "observation": "The game Me 262 illustration shows swept wings and two nacelles. Match the icon viewpoint without substituting the Kikka body."
+    },
+    {
+      "icon": 57,
+      "equipment": [
+        {
+          "id": 546,
+          "name": "試製 震電(局地戦闘機)",
+          "url": "https://uploads.kcwiki.cn/commons/d/de/Soubi546HD.png",
+          "descriptionurl": "https://zh.kcwiki.cn/wiki/File:Soubi546HD.png",
+          "descriptionshorturl": "https://zh.kcwiki.cn/index.php?curid=57111"
+        }
+      ],
+      "observation": "The game propeller Shinden shows canards ahead of the main wing and a rear pusher propeller. Compare directly with equipment 548 before drawing the propulsion variants."
+    },
+    {
+      "icon": 58,
+      "equipment": [
+        {
+          "id": 552,
+          "name": "九九式練爆二二型改(夜間装備実験機)",
+          "url": "https://uploads.kcwiki.cn/commons/2/28/Soubi552HD.png",
+          "descriptionurl": "https://zh.kcwiki.cn/wiki/File:Soubi552HD.png",
+          "descriptionshorturl": "https://zh.kcwiki.cn/index.php?curid=57481"
+        }
+      ],
+      "observation": "The Type 99 night dive bomber retains a forward propeller and fixed landing gear. Its category icon viewpoint differs from the approved carrier family; preserve that distinction."
+    },
+    {
+      "icon": 59,
+      "equipment": [
+        {
+          "id": 561,
+          "name": "Ho229",
+          "url": "https://uploads.kcwiki.cn/commons/8/8a/Soubi561HD.png",
+          "descriptionurl": "https://zh.kcwiki.cn/wiki/File:Soubi561HD.png",
+          "descriptionshorturl": "https://zh.kcwiki.cn/index.php?curid=61052"
+        }
+      ],
+      "observation": "The Ho229 game illustration supplies the flying-wing outline, twin intakes and lack of a conventional tail. Use it ahead of the previously examined museum reproduction."
+    },
+    {
+      "icon": 60,
+      "equipment": [
+        {
+          "id": 548,
+          "name": "震電改三(試製 噴式震電)",
+          "url": "https://uploads.kcwiki.cn/commons/0/02/Soubi548HD.png",
+          "descriptionurl": "https://zh.kcwiki.cn/wiki/File:Soubi548HD.png",
+          "descriptionshorturl": "https://zh.kcwiki.cn/index.php?curid=63374"
+        }
+      ],
+      "observation": "Use the game jet Shinden illustration for the canards, rear main wing, fins and jet installation. It is a game variant; historical J7W photographs cannot establish these jet details."
+    }
+  ]
+}

@@ -31,10 +31,14 @@ The scope covers game-derived icons and their existing variants. It excludes the
 
 Files such as `svg/slotitem/6.svg` can be used directly as images. All lettering in the new reconstructions is outlined, so consumers do not need to install a font.
 
+## Game equipment illustration references
+
+[Aircraft reference gallery](https://poooi.github.io/icons/aircraft-references.html) pairs 26 game equipment illustrations with 20 aircraft icons and their current SVG baselines. [The mapping](docs/game-art-references.json) records equipment IDs, source URLs and structural observations. The accepted carrier family is excluded. This reference collection does not mean those SVGs have already been revised against the game artwork.
+
 ## Reconstruction and review
 
 1. Preserve the original category colors, silhouette, orientation, composition, and identifying marks.
-2. Group related icons and reuse their shared geometry. Resolve unclear structures using equipment photographs, recording observations and uncertainty in [Icon families and reconstruction evidence](docs/icon-families.md).
+2. Group related icons and reuse their shared geometry. Resolve unclear structures using game equipment illustrations first, with historical photographs as supplementary evidence, recording observations and uncertainty in [Icon families and reconstruction evidence](docs/icon-families.md).
 3. Use a bold Mincho serif for lettering. This pass uses Noto Serif JP ExtraBold at weight 800.
 4. Inspect enlarged views and 18, 24, 32, and 48 px sizes on light and dark backgrounds. Tiny lettering does not need to be readable; color and silhouette are the primary recognition cues.
 
