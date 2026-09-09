@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200px" height="1200px" viewBox="0 0 1200 1200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="600 1150 200 950 600 750 1000 950"></polygon>
+        <filter x="-7.5%" y="-7.5%" width="115.0%" height="130.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="30" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4">
+            <g id="Path-3">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#B18154" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="Group-3" transform="translate(400.000000, 250.000000)">
+                <polygon id="Path-2" fill="#745636" points="0 100 0 600 200 700 400 600 400 100 200 200"></polygon>
+                <polygon id="Path-Copy-2" fill="#B18154" points="5.68434189e-14 100 200 0 400 100 200 200"></polygon>
+            </g>
+            <g id="Group-2" transform="translate(200.000000, 50.000000)">
+                <polygon id="Path-Copy" fill="#B18154" points="0 100 200 -5.68434189e-14 400 100 200 200"></polygon>
+                <polygon id="Path-2-Copy-2" fill="#745636" points="0 100 0 900 200 1000 400 900 400 100 200 200"></polygon>
+                <polygon id="Path-2-Copy-5" fill="#B18154" points="0 100 0 900 200 1000 200 200"></polygon>
+            </g>
+            <g id="Group" transform="translate(600.000000, 550.000000)">
+                <polygon id="Path-Copy-3" fill="#B18154" points="0 100 200 2.27373675e-13 400 100 200 200"></polygon>
+                <polygon id="Path-2-Copy" fill="#745636" points="0 100 0 400 200 500 400 400 400 100 200 200"></polygon>
+                <polygon id="Path-2-Copy-6" fill="#B18154" points="0 100 0 400 200 500 200 200"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

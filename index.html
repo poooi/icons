@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>poi icons · 图标描摹与预览</title>
+  <link rel="stylesheet" href="preview.css">
+  <script src="catalog.js" defer></script>
+  <script src="preview.js" defer></script>
+</head>
+<body>
+<main>
+  <header>
+    <p class="eyebrow">POI / ICON LIBRARY</p>
+    <h1>图标描摹与预览</h1>
+    <p>以游戏原图的颜色、外形和类别标记为依据，补全模糊细节后覆核。覆盖装备、资源、状态与其他 PNG 图标。</p>
+    <p id="summary"></p>
+    <a href="https://github.com/poooi/icons">GitHub 仓库</a>
+    <span aria-hidden="true"> · </span>
+    <a href="https://github.com/poooi/icons/archive/refs/heads/gh-pages.zip">下载整套仓库</a>
+  </header>
+  <div class="controls">
+    <div class="themes" aria-label="预览背景">
+      <button id="dark" aria-pressed="true">深色背景</button>
+      <button id="light" aria-pressed="false">浅色背景</button>
+    </div>
+    <label>尺寸 <select id="size"><option>18</option><option selected>24</option><option>32</option><option>48</option><option>64</option></select> px</label>
+    <label>类别 <select id="category"><option value="">全部</option></select></label>
+    <label>进度 <select id="status"><option value="">全部</option><option>新描摹</option><option>已有 SVG</option><option>待描摹</option></select></label>
+    <label>查找 <input id="search" type="search" placeholder="ID、名称或装备名"></label>
+    <span id="count" role="status" aria-live="polite"></span>
+  </div>
+  <p class="hint">上方统一放大到 120px，下方为所选尺寸。原图有多个版本时可切换；“现有 SVG 参考”不代表已完成本轮重绘。</p>
+  <div class="table-head" aria-hidden="true"><span>图标 / 进度</span><span>原图 PNG</span><span>SVG</span></div>
+  <div id="gallery"></div>
+  <p id="empty" hidden>没有匹配的图标。</p>
+  <noscript>请启用 JavaScript 浏览、筛选图标。SVG 文件也可直接从仓库下载。</noscript>
+  <footer>新描摹文字采用 Noto Serif JP ExtraBold（800）转路径，无需安装字体。模糊处包含概念补全；本仓库独立维护，尚未接入 poi。<br>来源与目录说明见 <a href="https://github.com/poooi/icons#readme">README</a>。</footer>
+</main>
+</body>
+</html>
